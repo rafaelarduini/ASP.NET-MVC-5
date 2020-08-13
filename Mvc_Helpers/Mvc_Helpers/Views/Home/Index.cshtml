@@ -1,0 +1,94 @@
+﻿@model Mvc_Helpers.Models.Cliente
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>Html Helpers</h2>
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Label and Text</legend>
+            <p>
+                @Html.Label("Nome")
+                @Html.TextBox("Nome")
+                <br />
+                @Html.LabelFor(x => x.Idade)
+                @Html.TextBoxFor(x => x.Idade)
+                <br />
+                @Html.LabelForModel(Model.EstadoCivil)
+                @Html.TextBoxFor(x => x.EstadoCivil)
+                <br />
+                @Html.LabelFor(x => x.Observacao)
+                @Html.TextAreaFor(x => x.Observacao)
+                <br />
+            </p>
+            <hr />
+            <legend>RadioButton</legend>
+            <p>
+                @Html.RadioButton("rdbEstaCivil", 1, true) Solteiro <br />
+                @Html.RadioButton("rdbEstaCivil", 2) Casado <br />
+                @Html.RadioButton("rdbEstaCivil", 3) Divorciado <br />
+            </p>
+            <hr />
+            <legend>RadioButtonFor</legend>
+            <p>
+                @Html.RadioButtonFor(x => x.EstadoCivil, 1, new { @checked = "checked" }) Casado <br />
+                @Html.RadioButtonFor(x => x.EstadoCivil, 2) Solteiro <br />
+                @Html.RadioButtonFor(x => x.EstadoCivil, 3) Divorciado
+            </p>
+            <hr />
+            <legend>CheckBox</legend>
+            <p>
+                Ativo @Html.CheckBox("chkAtivo")
+                Inativo @Html.CheckBox("chkInativo", true)
+                Inadimplente @Html.CheckBox("chkInadimplente")
+            </p>
+            <hr />
+            <legend>CheckBoxFor</legend>
+            <p>
+                Casado   @Html.CheckBoxFor(x => x.Status, new { @checked = "checked" })
+                Solteiro @Html.CheckBoxFor(x => x.Status)
+            </p>
+            <hr />
+            <legend>DropDownList</legend>
+            <p>
+                Estado Civil @Html.DropDownList("lstEstadoCivil", new[]
+     {
+         new SelectListItem { Text="Casado", Value="1"},
+         new SelectListItem { Text="Solteiro", Value="2"},
+         new SelectListItem { Text="Divorciado", Value="3"}
+     }, "Selecione a opção")
+            </p>
+            <hr />
+            <legend>DropDownList</legend>
+            <p>
+                @Html.DropDownList("Lista")
+            </p>
+            <hr />
+            <legend>DropDownListFor</legend>
+            <p>
+                Cliente: @Html.DropDownListFor(x => x.Status, new[]
+               {
+                  new SelectListItem() {Text="Ativo", Value="true"},
+                  new SelectListItem() {Text="Inativo", Value="false"}
+              })
+            </p>
+            <hr />
+            <legend>LisBox</legend>
+            <p>
+                Paises @Html.ListBox("lstPaises", new[]
+           {
+               new SelectListItem { Text="Brasil", Value="1"},
+               new SelectListItem { Text="Peru", Value="2"},
+               new SelectListItem { Text="Equador", Value="3"}
+           }, "Escolha o pais")
+            </p>
+            <hr />
+        </fieldset>
+        @Html.ActionLink("Editar", "Editar")
+    }
+</body>
+</html>

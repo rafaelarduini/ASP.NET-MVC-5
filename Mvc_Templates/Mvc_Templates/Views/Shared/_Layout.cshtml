@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+    <link href="~/Styles/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+        @if (IsSectionDefined("header"))
+        {
+            @RenderSection("header")
+        }
+        else
+        {
+            @RenderPage("~/Views/Shared/_Header.cshtml");
+        }
+    </div>
+    <div id="main">
+        @RenderBody()
+    </div>
+    <div id="footer">
+        <hr />
+        &copy; 2019 Rafael Arduini. Todos os direitos Reservados.
+    </div>
+</body>
+</html>

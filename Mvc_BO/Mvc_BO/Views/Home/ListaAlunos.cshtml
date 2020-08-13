@@ -1,0 +1,8 @@
+﻿@model IEnumerable<BLL.Aluno>
+@foreach (var item in Model)
+{
+    @Html.Partial("_Alunos",item)
+}
+
+<hr/>
+@Html.ActionLink("Retornar","Index")

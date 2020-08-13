@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc_Rotas", "Mvc_Rotas\Mvc_Rotas.csproj", "{67542691-F5A8-4C2E-BDD5-80CF4C8C9C3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67542691-F5A8-4C2E-BDD5-80CF4C8C9C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67542691-F5A8-4C2E-BDD5-80CF4C8C9C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67542691-F5A8-4C2E-BDD5-80CF4C8C9C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67542691-F5A8-4C2E-BDD5-80CF4C8C9C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4EC5D44-AE77-4AB4-A2E9-D1AD7CA2DCA1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc_BootStrap", "Mvc_BootStrap\Mvc_BootStrap.csproj", "{052F0DDB-CA52-4885-990D-1B0111A1F530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052F0DDB-CA52-4885-990D-1B0111A1F530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052F0DDB-CA52-4885-990D-1B0111A1F530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052F0DDB-CA52-4885-990D-1B0111A1F530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052F0DDB-CA52-4885-990D-1B0111A1F530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC02ED47-2175-4DF4-B771-8BD0BA5F0DA3}
+	EndGlobalSection
+EndGlobal

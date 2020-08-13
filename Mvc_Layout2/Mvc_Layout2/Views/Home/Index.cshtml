@@ -1,0 +1,42 @@
+﻿@model Mvc_Layout2.Models.Produto
+<div>
+    <h3>@ViewData["Titulo"]</h3>
+    <h2>Catálogo de Produto</h2>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sobre", "Sobre")
+</p>
+
+@section rodape{
+    <div id="linharodape">
+        <hr />
+    </div>
+    <div id="rodape">
+        Rodapé do site (Index) - (@DateTime.Now.Date)
+    </div>
+}
+
+@section cabecalho{
+    <div id="cabecalho">
+        <h3>Página de Layout do site - Cabeçalho (Index) </h3>
+        <hr />
+    </div>
+}

@@ -1,0 +1,6 @@
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\bin\Debug\BLL.dll
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\bin\Debug\BLL.pdb
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\obj\Debug\BLL.dll
+C:\Users\T-Gamer\source\repos\Mvc_BO\BLL\obj\Debug\BLL.pdb

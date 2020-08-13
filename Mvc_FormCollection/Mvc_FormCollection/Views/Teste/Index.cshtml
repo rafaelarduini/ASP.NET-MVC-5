@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Submeter Form com FormCollection";
+}
+
+<h2>Submeter Form com FormCollection</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        Você enviou:<br />
+        Nome     : @ViewData["nome"]<br />
+        Email    : @ViewData["email"]<br />
+        Sexo     : @ViewData["sexo"]<br />
+        Idade    : @ViewData["idade"]<br />
+    </div>
+    <br />
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" />
+    <br />
+    <label for="sobrenome">Email:</label>
+    <input type="text" name="email" />
+    <br />
+    <label for="email">Sexo:</label>
+    <input type="text" name="sexo" />
+    <br />
+    <label for="email">Idade:</label>
+    <input type="text" name="idade" />
+    <br />
+    <br />
+
+    <input type="submit" name="Enviar" />
+}

@@ -1,0 +1,7 @@
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\bin\Debug\tipos_de_variaveis.exe.config
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\bin\Debug\tipos_de_variaveis.exe
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\bin\Debug\tipos_de_variaveis.pdb
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\obj\Debug\tipos_de_variaveis.csprojAssemblyReference.cache
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\obj\Debug\tipos_de_variaveis.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\obj\Debug\tipos_de_variaveis.exe
+C:\Users\T-Gamer\source\repos\tipos_de_variaveis\tipos_de_variaveis\obj\Debug\tipos_de_variaveis.pdb

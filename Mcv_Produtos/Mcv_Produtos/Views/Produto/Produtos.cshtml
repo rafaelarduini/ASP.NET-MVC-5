@@ -1,0 +1,21 @@
+﻿@model Mcv_Produtos.Models.Produto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Produtos</title>
+</head>
+<body>
+    <div>
+        <p> Código    : @Html.TextBoxFor(x => x.Id)</p>
+        <p> Nome      : @Html.TextBoxFor(x => x.Nome)</p>
+        <p> Descricao : @Html.TextBoxFor(x => x.Descricao)</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+﻿@model Mvc_Helpers.Models.Cliente
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <fieldset>
+                <legend>Editando dados</legend>
+                <p>
+                    <legend>Cliente</legend>
+                    @Html.EditorForModel()
+                </p>
+            </fieldset>
+        }
+        @Html.ActionLink("Retornar", "Index")
+    </div>
+    <legend>--Display--</legend>
+    @Html.Display("Idade")
+    <br />
+    <legend>--DisplayText--</legend>
+    @Html.DisplayText("EstadoCivil")
+    <br />
+    <legend>--DisplayFor--</legend>
+    @Html.DisplayFor(x => x.Nome)
+    <br />
+    <legend>--DisplayTextFor--</legend>
+    @Html.DisplayTextFor(x => x.Observacao)
+    <hr />
+    <legend>----------DisplayForModel-------</legend>
+    @Html.DisplayForModel()
+</body>
+</html>

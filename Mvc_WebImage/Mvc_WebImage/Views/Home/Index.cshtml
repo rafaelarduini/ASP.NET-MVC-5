@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <img src="@Url.Action("GetImagem")" alt="quati" />
+    </div>
+    <br />
+    @Html.ActionLink("Flip Horizontal", "GetHorizontalFlip")
+    @Html.ActionLink("Flip Vertical", "GetVerticalFlip")
+    @Html.ActionLink("Redimensionar", "GetResized")
+    @Html.ActionLink("Rotação à esquerda", "GetRotateLeft")
+    <br />
+    @Html.ActionLink("Rotação à direita", "GetRotateRight")
+    @Html.ActionLink("Texto com marca D'água", "GetTextWatermark")
+    @Html.ActionLink("Cortar a Imagem", "GetCropped")
+</body>
+</html>
