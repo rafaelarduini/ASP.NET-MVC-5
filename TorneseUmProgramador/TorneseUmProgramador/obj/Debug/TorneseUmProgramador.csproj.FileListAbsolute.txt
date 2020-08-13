@@ -1,7 +1,0 @@
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\bin\Debug\TorneseUmProgramador.exe.config
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\bin\Debug\TorneseUmProgramador.exe
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\bin\Debug\TorneseUmProgramador.pdb
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\obj\Debug\TorneseUmProgramador.csproj.CoreCompileInputs.cache
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\obj\Debug\TorneseUmProgramador.exe
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\obj\Debug\TorneseUmProgramador.pdb
-C:\Users\T-Gamer\source\repos\TorneseUmProgramador\TorneseUmProgramador\obj\Debug\TorneseUmProgramador.csprojAssemblyReference.cache
